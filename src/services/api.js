@@ -1,6 +1,6 @@
 import axios from "axios";
 
 export const api = axios.create({
-  baseURL: "http://localhost:3000/backend",
+  baseURL: "https://parcial-backend-jet.vercel.app/backend",
   headers: { "Content-Type": "application/json" },
 });
